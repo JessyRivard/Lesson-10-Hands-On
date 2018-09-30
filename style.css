@@ -1,8 +1,49 @@
-.buttonIcon {
-    position: absolute;
-    height: auto;
-    width: 30px;
+body {
+    background-color: #A7A7A7;
 }
-.socialButton {
-    padding-left: 34px;
+.navbar-brand {
+    color: black;
+}
+.navbar-brand:hover {
+    color: gray;
+}
+.navbar {
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar small { 
+    color: #2C2C2C;
+}
+.nav-item {
+    list-style-type: none;
+}
+.socialButtons img{
+    height: 40px;
+    margin: 40px 15px 20px 5px;
+}
+.socialButtonsHover img{
+    height: 50px;
+    margin: 30px 10px 20px 0px;
+}
+.skills {
+    background-color: white;
+    margin-top: 15px;
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+}
+.photograph {
+    border: 10px solid white;
+}
+.GitRepos {
+    background-color: white;
+    display: flex;
+    min-height: 500px;
+}
+#repos {
+    list-style-type: none;
+    font-size: 120%;
+    font-family: 'Noto Sans', sans-serif;
 }

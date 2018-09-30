@@ -6,31 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="page-header">
-            <h1>Jessy Rivard <small> Student Full Stack Developer</small></h1>
-        </div>
-    </div>
+    <nav class="navbar fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#"><h1>Jessy Rivard <small> Student Full Stack Developer</small></h1></a>
+            <ul class="navbar-nav">
+                <li class="nav-item socialButtons"><a class="navbar-link" href="https://github.com/JessyRivard"><img src="images/GitHub-Mark-64px.png" alt="GitHub"></a></li>
+                <li class="nav-item socialButtons"><a href="https://www.linkedin.com/in/jessy-rivard-563166172/"><img src="images/In-2C-94px-R.png" alt="linkedin"></a></li>
+                <li class="nav-item socialButtons"><a href="https://www.facebook.com/jessy.rivard.3"><img src="images/flogo_RGB_HEX-1024.png" alt="facebook"></a></li>
+                <li class="nav-item socialButtons"><a href="https://www.instagram.com/jessyrivard1/"><img src="images/glyph-logo_May2016.png" alt="instagram"></a></li>
+                <li class="nav-item socialButtons"><a href="https://twitter.com/jessy_rivard"><img src="images/Twitter_Social_Icon_Rounded_Square_Color.png" alt="twitter"></a></li>
+            </div>
+    </nav>
     <div class="container">
         <div class="margin col-md-1"></div>
         <div class="body col-md-10">
-            <div class="image col-md-5">
-                <img src="images/29790606_2154215897929617_2675264454991544320_n.jpg" class="img-responsive" alt="Jessy Rivard Profile Picture">
-            </div>
-            <div class="socialButtons col-md-7">
-                <div class="github">
-                    <img class="buttonIcon" src="images/GitHub-Mark-64px.png" alt="git" >
-                    <button class="socialButton btn btn-info">GitHub</button>
+            <div class="left col-md-5">
+                <div class="photograph">
+                    <img src="images/29790606_2154215897929617_2675264454991544320_n.jpg" class="img-responsive" alt="Jessy Rivard Profile Picture">
                 </div>
+                <div class="skills">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-10">
+                        <h3>Skills:</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>Bootstrap 3</li>
+                            <li>JavaScript</li>
+                            <li>JQuery</li>
+                            <li>AJAX</li>
+                            <li>CSS</li>
+                            <li>Flexbox</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="GitRepos col-md-7">
+                <div id="repos"></div>
             </div>
         </div>
         <div class="margin col-md-1"></div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
