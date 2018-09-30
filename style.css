@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-family: 'Open Sans', sans-serif;
+    border-bottom: solid black 1px;
 }
 .navbar small { 
     color: #2C2C2C;
@@ -46,4 +47,16 @@ body {
     list-style-type: none;
     font-size: 120%;
     font-family: 'Noto Sans', sans-serif;
+}
+.footer {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-top: solid black 1px;
+}
+.glyphicon {
+    margin: 5px
 }
