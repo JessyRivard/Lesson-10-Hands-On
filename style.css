@@ -4,9 +4,6 @@ body {
 .navbar-brand {
     color: black;
 }
-.navbar-brand:hover {
-    color: gray;
-}
 .navbar {
     height: 100px;
     background-color: white;
@@ -34,6 +31,7 @@ body {
     margin-top: 15px;
     display: flex;
     font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 40px;
 }
 .photograph {
     border: 10px solid white;
@@ -42,11 +40,17 @@ body {
     background-color: white;
     display: flex;
     min-height: 500px;
+    margin-bottom: 40px;
+    padding-top: 10px;
 }
-#repos {
+.repos {
     list-style-type: none;
     font-size: 120%;
     font-family: 'Noto Sans', sans-serif;
+}
+.repos a {
+    color: black;
+    text-decoration: underline;
 }
 .footer {
     height: 35px;
@@ -59,4 +63,7 @@ body {
 }
 .glyphicon {
     margin: 5px
+}
+.gitHead {
+    margin-left 15px;
 }
